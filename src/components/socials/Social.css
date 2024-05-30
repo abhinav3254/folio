@@ -25,3 +25,16 @@
     width: 100%;
     object-fit: contain;
 }
+
+@media (max-width: 599px) {
+
+    .conatiner {
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+
+    .SocialConatiner {
+        width: 30px;
+        height: 30px;
+    }
+}

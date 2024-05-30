@@ -1,7 +1,10 @@
 import './Social.css';
 import SocialsJson from '../../assets/json/social.json';
+import { gsap } from "gsap";
 
 const Social = () => {
+
+    gsap.to(".SocialConatiner", { rotate: 360 })
 
     return (
         <div className='Social'>

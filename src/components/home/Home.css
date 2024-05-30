@@ -1,7 +1,6 @@
 .Home {
     padding: 10px;
     padding-top: 80px;
-    border: 1px solid red;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -9,20 +8,44 @@
 }
 
 
-.HomeLeft {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: space-between;
-    margin: auto;
-}
-
 .HomeRight {
     display: flex;
     flex-direction: column;
     padding: 10px;
     justify-content: space-between;
     margin: auto;
+    width: 50%;
+}
+
+.Hello {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+}
+
+.HelloIcon {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+    position: absolute;
+}
+
+.HomeLeft {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+}
+
+.HomeLeft img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: none;
 }
 
 .Name {
@@ -31,5 +54,36 @@
 }
 
 .Information {
-    font-size: 20px;
+    font-size: 16px;
+}
+
+/* Small Devices (Tablets)
+@media (min-width: 600px) and (max-width: 959px) {
+    .Home {
+        flex-direction: column;
+    }
+
+    .HomeRight {
+        width: 100%;
+    }
+} */
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 599px) {
+    .Home {
+        flex-direction: column;
+    }
+
+    .HomeRight {
+        width: 100%;
+    }
+
+    .Name {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .Information {
+        font-size: 14px;
+    }
 }
