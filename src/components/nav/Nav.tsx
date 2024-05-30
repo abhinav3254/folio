@@ -14,12 +14,12 @@ const Nav = () => {
                     <span className="line line3"></span>
                 </div>
                 <ul className="menu-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a>Home</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Skills</a></li>
+                    <li><a>Contact Me</a></li>
                 </ul>
                 <h1 className="logo">Abhinav Jha</h1>
             </div>
