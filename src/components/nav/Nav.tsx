@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 
@@ -14,9 +15,9 @@ const Nav = () => {
                     <span className="line line3"></span>
                 </div>
                 <ul className="menu-items">
-                    <li><a>Home</a></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><a>Blogs</a></li>
-                    <li><a>About</a></li>
+                    <li><Link to="/about">About</Link></li>
                     <li><a>Projects</a></li>
                     <li><a>Skills</a></li>
                     <li><a>Contact Me</a></li>
