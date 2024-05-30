@@ -1,13 +1,7 @@
-import React from 'react'
 import './Social.css';
 import SocialsJson from '../../assets/json/social.json';
-import temp from '../../assets/svg/github.svg';
 
 const Social = () => {
-
-    const imagePathFinder = (name: string): string => {
-        return `../../assets/svg/${name}.svg`;
-    }
 
     return (
         <div className='Social'>
