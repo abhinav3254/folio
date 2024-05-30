@@ -1,0 +1,35 @@
+.Home {
+    padding: 10px;
+    padding-top: 80px;
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.HomeLeft {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.HomeRight {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.Name {
+    font-size: 90px;
+    margin: 10px 0;
+}
+
+.Information {
+    font-size: 20px;
+}
