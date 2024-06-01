@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import Nav from './components/nav/Nav';
 
 import React from 'react'
+import Skills from './components/skills/Skills';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
     </div>

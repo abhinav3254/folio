@@ -19,7 +19,7 @@ const Nav = () => {
                     <li><a>Blogs</a></li>
                     <li><Link to="/about">About</Link></li>
                     <li><a>Projects</a></li>
-                    <li><a>Skills</a></li>
+                    <li><Link to="/skills">Skills</Link></li>
                     <li><a>Contact Me</a></li>
                 </ul>
                 <h1 className="logo">Abhinav Jha</h1>

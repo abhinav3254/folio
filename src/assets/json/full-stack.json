@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Angular"
+    },
+    {
+        "id": 2,
+        "name": "CSS"
+    },
+    {
+        "id": 3,
+        "name": "Express"
+    },
+    {
+        "id": 4,
+        "name": "Flask"
+    },
+    {
+        "id": 5,
+        "name": "HTML"
+    },
+    {
+        "id": 6,
+        "name": "Java"
+    },
+    {
+        "id": 7,
+        "name": "Javascript"
+    },
+    {
+        "id": 8,
+        "name": "jQuery"
+    },
+    {
+        "id": 9,
+        "name": "Nodejs"
+    },
+    {
+        "id": 10,
+        "name": "Python"
+    },
+    {
+        "id": 11,
+        "name": "React"
+    },
+    {
+        "id": 12,
+        "name": "Spring"
+    },
+    {
+        "id": 13,
+        "name": "Tailwind"
+    },
+    {
+        "id": 14,
+        "name": "Typescript"
+    },
+    {
+        "id": 15,
+        "name": "Microservices"
+    }
+]
