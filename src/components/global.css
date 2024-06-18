@@ -1,0 +1,19 @@
+.text-sm {
+    font-size: 12px;
+}
+
+.text-lg {
+    font-size: 50px;
+}
+
+.text-md {
+    font-size: 30px;
+}
+
+.my-5 {
+    margin-top: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}

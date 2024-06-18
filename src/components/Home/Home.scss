@@ -1,0 +1,42 @@
+@import '../global.css';
+
+
+.Home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .div-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .salutation {
+            color: var(--green);
+        }
+        .name {
+            // color: rgba($color: #ffffff, $alpha: 0.8);
+            color: var(--light_white);
+        }
+        .intro {
+            color: var(--smooth);
+        }
+        .des {
+            color: var(--light_white);
+            border-bottom: 2px solid var(--green);
+        }
+    }
+
+    .img-svg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+}

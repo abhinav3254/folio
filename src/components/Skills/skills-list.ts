@@ -1,0 +1,1 @@
+export const skills_list = ['Angular', 'CSS', 'HTML', 'Java', 'Javascript', 'Python', 'React', 'Spring']
